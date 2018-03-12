@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { DataService } from './data.service';
+import {Component} from '@angular/core';
+import {DataService} from './data.service';
 
 @Component({
   selector: 'app-root',
@@ -14,7 +14,9 @@ export class AppComponent {
 
     this._dataService.getUsers()
       .subscribe(res => this.users = res);
-
+    $(document).ready(function () {
+      //    $('#records').DataTable();
+    });
   }
 
 }

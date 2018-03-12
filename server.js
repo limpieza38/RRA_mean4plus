@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const path = require('path');
 const http = require('http');
 const app = express();
+const cors = require('cors');
 
 // API file for interacting with MongoDB
 const api = require('./server/routes/api');
@@ -13,6 +14,11 @@ app.use(bodyParser.urlencoded({ extended: false}));
 
 // Angular DIST output folder
 app.use(express.static(path.join(__dirname, 'dist')));
+
+
+
+// use it before all route definitions
+app.use(cors({origin: 'http://localhost:4200'}));
 
 // API location
 app.use('/api', api);

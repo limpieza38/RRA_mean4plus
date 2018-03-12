@@ -1,9 +1,9 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-
-import { AppComponent } from './app.component';
-import { HttpModule } from '@angular/http';
-import { DataService } from './data.service';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import * as $ from 'jquery';
+import {AppComponent} from './app.component';
+import {HttpModule} from '@angular/http';
+import {DataService} from './data.service';
 
 @NgModule({
   declarations: [
@@ -16,4 +16,5 @@ import { DataService } from './data.service';
   providers: [DataService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

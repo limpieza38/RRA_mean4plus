@@ -8,6 +8,7 @@ import {AppComponent} from './app.component';
 import {NavbarComponent} from './components/navbar/navbar.component';
 import {SidebarComponent} from './components/sidebar/sidebar.component';
 import {MainComponent} from './components/main/main.component';
+import {RecordTableComponent} from './components/recordsTable/recordTable.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import {MainComponent} from './components/main/main.component';
     AppComponent,
     NavbarComponent,
     SidebarComponent,
-    MainComponent
+    MainComponent,
+    RecordTableComponent
   ],
   imports: [
     BrowserModule,

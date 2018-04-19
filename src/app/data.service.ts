@@ -1,22 +1,25 @@
 import { Injectable } from '@angular/core';
 
-import { Http, Headers, RequestOptions } from '@angular/http';
+import { Http, Headers, RequestOptions, Response } from '@angular/http';
 import 'rxjs/add/operator/map';
+import {mapRecords} from './utils/dtoUtil';
 
 @Injectable()
 export class DataService {
+  headers = new Headers();
 
+  options: any;
   result: any;
 
-  constructor(private _http: Http) { }
-
-  getUsers() {
-    const headers = new Headers();
+  constructor(private _http: Http) {
     // TODO
-    headers.append('Access-Control-Allow-Origin', '*');
-    const options = new RequestOptions({ headers: headers });
+    this.headers.append('Access-Control-Allow-Origin', '*');
+    this.options = new RequestOptions({ headers: this.headers });
+  }
 
-    return this._http.get('http://localhost:3000/api/users', options)
-      .map(result => this.result = result.json().data);
+  getRecords() {
+    const ret =  this._http.get('http://localhost:3000/api/records', this.options)
+      .map(mapRecords);
+    return ret;
   }
 }

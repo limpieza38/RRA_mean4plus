@@ -7,10 +7,6 @@ import {DataService} from '../../data.service';
   styleUrls: ['./main.component.css']
 })
 export class MainComponent {
-  users: Array<any>;
-
   constructor(private _dataService: DataService) {
-    this._dataService.getUsers()
-      .subscribe(res => this.users = res);
   }
 }

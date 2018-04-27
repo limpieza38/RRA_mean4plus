@@ -6,7 +6,7 @@ import {DataService} from '../../data.service';
   templateUrl: './recordTable.component.html',
   styleUrls: ['./recordTable.component.css']
 })
-export class RecordTableComponent {
+export class RecordsTableComponent {
   records: Array<any>;
 
   constructor(private _dataService: DataService) {

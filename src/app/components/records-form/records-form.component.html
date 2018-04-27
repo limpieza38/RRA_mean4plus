@@ -1,0 +1,90 @@
+<div class="col-md-10 col-lg-8 offset-lg-2">
+  <h4 class="mb-3">Add a Record</h4>
+  <form
+    [formGroup]="form"
+    (ngSubmit)="onSubmit(form.value)">
+    <div class="row">
+      <div class="mb-3 col-md-6">
+        <label for="businessUnity">Business Unity</label>
+        <select class="form-control" name="businessUnity" id="businessUnity" formControlName="businessUnity">
+          <option value="1">Finance and Controlling</option>
+          <option value="2">Marketing</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="mb-3 col-md">
+        <label for="documentType">Document Type</label>
+        <input class="form-control" type="text" name="documentType" id="documentType"
+               formControlName="documentType">
+      </div>
+      <div class="mb-3 col-md">
+        <label for="volume">Volume</label>
+        <input class="form-control" type="text" name="volume" id="volume"
+               formControlName="volume">
+      </div>
+    </div>
+    <div class="mb-3">
+      <label for="description">Content Description</label>
+      <textarea class="form-control" type="text" name="description" id="description"
+                formControlName="description"></textarea>
+    </div>
+    <div class="row">
+      <div class="mb-3 col-md">
+        <label for="dateCreatedFrom">Created From</label>
+        <input class="form-control" type="date" name="dateCreatedFrom" id="dateCreatedFrom"
+               formControlName="dateCreatedFrom">
+      </div>
+      <div class="mb-3 col-md">
+        <label for="dateCreatedTo">Created To</label>
+        <input class="form-control" type="date" name="dateCreatedTo" id="dateCreatedTo"
+               formControlName="dateCreatedTo">
+      </div>
+    </div>
+    <hr class="mb-3">
+    <h5 class="mb-3">Location</h5>
+    <div class="row">
+      <div class="mb-3 col-md">
+        <label for="building">Building</label>
+        <select class="form-control" name="building" id="building" formControlName="building">
+          <option value="1">First Building</option>
+          <option value="2">Second Building</option>
+        </select>
+      </div>
+      <div class="mb-3 col-md">
+        <label for="floor">Floor</label>
+        <select class="form-control" name="floor" id="floor" formControlName="floor">
+          <option value="1">First Floor</option>
+          <option value="2">Second Floor</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="mb-3 col-md">
+        <label for="room">Room</label>
+        <select class="form-control" name="room" id="room" formControlName="room">
+          <option value="1">First Floor</option>
+          <option value="2">Second Floor</option>
+        </select>
+      </div>
+      <div class="mb-3 col-md">
+        <label for="boxDraw">Box Draw</label>
+        <input type="text" class="form-control" name="boxDraw" id="boxDraw" formControlName="boxDraw">
+      </div>
+    </div>
+    <hr class="mb-3">
+    <div class="row">
+      <div class="mb-3 col-md">
+        <label for="createdBy">Created By</label>
+        <input type="text" class="form-control" name="createdBy" id="createdBy" formControlName="createdBy" readonly>
+      </div>
+      <div class="mb-3 col-md">
+        <label for="dateArchived">Archived On</label>
+        <input type="datetime-local" class="form-control" name="dateArchived" id="dateArchived"
+               formControlName="dateArchived" readonly>
+      </div>
+    </div>
+    <button class="btn btn-primary btn-lg btn-block" type="submit">Save</button>
+  </form>
+</div>
+

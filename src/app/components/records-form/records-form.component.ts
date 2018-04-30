@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {FormGroup, FormControl} from '@angular/forms';
+import {FormGroup, FormControl, Validators} from '@angular/forms';
 
 
 @Component({
@@ -15,16 +15,16 @@ export class RecordsFormComponent implements OnInit {
 
   ngOnInit() {
     this.form = new FormGroup({
-      businessUnity: new FormControl(),
+      businessUnity: new FormControl(Validators.required),
       documentType: new FormControl(''),
       volume: new FormControl(''),
-      description: new FormControl(''),
-      dateCreatedFrom: new FormControl(''),
-      dateCreatedTo: new FormControl(''),
-      building: new FormControl(),
-      floor: new FormControl(),
-      room: new FormControl(),
-      boxDraw: new FormControl(''),
+      description: new FormControl('', Validators.required),
+      dateCreatedFrom: new FormControl(Validators.required),
+      dateCreatedTo: new FormControl(Validators.required),
+      building: new FormControl(Validators.required),
+      floor: new FormControl(Validators.required),
+      room: new FormControl(Validators.required),
+      boxDraw: new FormControl('', Validators.required),
       createdBy: new FormControl('Joe Doe'),
       dateArchived: new FormControl(new Date().toLocaleString())
       });

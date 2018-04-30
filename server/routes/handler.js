@@ -19,7 +19,7 @@ const sendError = (err, res) => {
     res.status(501).json(response);
 };
 
-// Response handling
+// Response handling (Array)
 let response = {
     status: 200,
     data: [],

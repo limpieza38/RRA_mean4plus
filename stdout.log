@@ -115,3 +115,211 @@
 [2018-04-27T16:57:26.321] [DEBUG] rra - Get records.
 [2018-04-27T16:57:26.326] [DEBUG] rra - Loading all records from database
 [2018-04-27T16:57:26.334] [DEBUG] rra - Loading finished
+[2018-04-28T13:07:08.773] [DEBUG] rra - Get records.
+[2018-04-28T13:07:09.303] [DEBUG] rra - Loading all records from database
+[2018-04-28T13:07:17.160] [DEBUG] rra - Loading finished
+[2018-04-28T13:08:08.296] [DEBUG] rra - Get records.
+[2018-04-28T13:08:08.297] [DEBUG] rra - Loading all records from database
+[2018-04-28T13:08:08.730] [DEBUG] rra - Loading finished
+[2018-04-28T13:08:35.346] [DEBUG] rra - Get records.
+[2018-04-28T13:08:35.347] [DEBUG] rra - Loading all records from database
+[2018-04-28T13:08:35.375] [DEBUG] rra - Loading finished
+[2018-04-28T13:08:49.078] [DEBUG] rra - Get records.
+[2018-04-28T13:08:49.079] [DEBUG] rra - Loading all records from database
+[2018-04-28T13:08:49.112] [DEBUG] rra - Loading finished
+[2018-04-28T13:08:51.174] [DEBUG] rra - Get records.
+[2018-04-28T13:08:51.175] [DEBUG] rra - Loading all records from database
+[2018-04-28T13:08:51.191] [DEBUG] rra - Loading finished
+[2018-04-28T13:08:51.986] [DEBUG] rra - Get records.
+[2018-04-28T13:08:51.987] [DEBUG] rra - Loading all records from database
+[2018-04-28T13:08:51.995] [DEBUG] rra - Loading finished
+[2018-04-28T13:08:53.086] [DEBUG] rra - Get records.
+[2018-04-28T13:08:53.088] [DEBUG] rra - Loading all records from database
+[2018-04-28T13:08:53.136] [DEBUG] rra - Loading finished
+[2018-04-28T13:08:56.007] [DEBUG] rra - Get records.
+[2018-04-28T13:08:56.009] [DEBUG] rra - Loading all records from database
+[2018-04-28T13:08:56.019] [DEBUG] rra - Loading finished
+[2018-04-28T13:08:59.042] [DEBUG] rra - Get records.
+[2018-04-28T13:08:59.043] [DEBUG] rra - Loading all records from database
+[2018-04-28T13:08:59.150] [DEBUG] rra - Loading finished
+[2018-04-28T13:26:49.146] [DEBUG] rra - Get records.
+[2018-04-28T13:26:49.147] [DEBUG] rra - Loading all records from database
+[2018-04-28T13:26:49.155] [DEBUG] rra - Loading finished
+[2018-04-28T13:39:28.846] [DEBUG] rra - Get records.
+[2018-04-28T13:39:28.848] [DEBUG] rra - Loading all records from database
+[2018-04-28T13:39:28.855] [DEBUG] rra - Loading finished
+[2018-04-28T13:39:52.350] [DEBUG] rra - Get records.
+[2018-04-28T13:39:52.352] [DEBUG] rra - Loading all records from database
+[2018-04-28T13:39:52.364] [DEBUG] rra - Loading finished
+[2018-04-28T13:40:07.851] [DEBUG] rra - Get records.
+[2018-04-28T13:40:07.853] [DEBUG] rra - Loading all records from database
+[2018-04-28T13:40:07.871] [DEBUG] rra - Loading finished
+[2018-04-28T14:11:57.944] [DEBUG] rra - Adding record.
+[2018-04-28T14:13:05.989] [DEBUG] rra - Adding record.
+[2018-04-28T14:13:05.992] [DEBUG] rra - Adding record to database
+[2018-04-28T14:29:25.961] [DEBUG] rra - Adding record.
+[2018-04-28T14:29:25.966] [DEBUG] rra - Adding record to database
+[2018-04-28T14:29:26.050] [DEBUG] rra - Adding record finished
+[2018-04-28T14:33:40.813] [DEBUG] rra - Adding record.
+[2018-04-28T14:33:40.813] [DEBUG] rra - Adding record to database
+[2018-04-28T14:33:40.839] [DEBUG] rra - Adding record finished
+[2018-04-28T14:36:03.545] [DEBUG] rra - Adding record.
+[2018-04-28T14:36:03.549] [DEBUG] rra - Adding record to database
+[2018-04-28T14:36:03.606] [DEBUG] rra - Adding record finished
+[2018-04-28T14:37:00.563] [DEBUG] rra - Adding record.
+[2018-04-28T14:37:00.566] [DEBUG] rra - Adding record to database
+[2018-04-28T14:37:00.614] [DEBUG] rra - Adding record finished
+[2018-04-28T14:41:05.050] [DEBUG] rra - Get records.
+[2018-04-28T14:41:05.054] [DEBUG] rra - Loading all records from database
+[2018-04-28T14:41:05.259] [DEBUG] rra - Loading finished
+[2018-04-28T14:42:56.293] [DEBUG] rra - Get record.
+[2018-04-28T14:42:56.294] [DEBUG] rra - Loading record from database
+[2018-04-28T14:43:12.867] [DEBUG] rra - Get record.
+[2018-04-28T14:43:12.871] [DEBUG] rra - Loading record from database
+[2018-04-28T14:45:13.125] [DEBUG] rra - Get record.
+[2018-04-28T14:45:13.128] [DEBUG] rra - Loading record from database
+[2018-04-28T14:45:13.168] [DEBUG] rra - Loading finished
+[2018-04-28T14:45:46.965] [DEBUG] rra - Get record.
+[2018-04-28T14:45:46.966] [DEBUG] rra - Loading record from database
+[2018-04-28T14:45:46.976] [DEBUG] rra - Loading finished
+[2018-04-28T14:46:15.705] [DEBUG] rra - Get record.
+[2018-04-28T14:46:15.706] [DEBUG] rra - Loading record from database
+[2018-04-28T14:46:15.716] [DEBUG] rra - Loading finished
+[2018-04-28T14:48:04.980] [DEBUG] rra - Get record.
+[2018-04-28T14:48:04.984] [DEBUG] rra - Loading record from database
+[2018-04-28T14:48:05.021] [DEBUG] rra - Loading finished
+[2018-04-28T14:48:07.705] [DEBUG] rra - Get record.
+[2018-04-28T14:48:07.724] [DEBUG] rra - Loading record from database
+[2018-04-28T14:48:07.736] [DEBUG] rra - Loading finished
+[2018-04-28T14:50:48.957] [DEBUG] rra - Get record.
+[2018-04-28T14:50:48.960] [DEBUG] rra - Loading record from database
+[2018-04-28T14:50:49.032] [DEBUG] rra - Loading finished
+[2018-04-28T14:52:39.679] [DEBUG] rra - Get record.
+[2018-04-28T14:52:39.682] [DEBUG] rra - Loading record from database
+[2018-04-28T14:52:57.860] [DEBUG] rra - Get record.
+[2018-04-28T14:52:57.864] [DEBUG] rra - Loading record from database
+[2018-04-28T15:01:23.874] [DEBUG] rra - Get record.
+[2018-04-28T15:01:23.878] [DEBUG] rra - Loading record from database
+[2018-04-28T15:01:23.911] [DEBUG] rra - Loading finished
+[2018-04-28T15:03:42.067] [DEBUG] rra - Get record.
+[2018-04-28T15:03:42.071] [DEBUG] rra - Loading record from database
+[2018-04-28T15:06:44.956] [DEBUG] rra - Get record.
+[2018-04-28T15:06:44.959] [DEBUG] rra - Loading record from database
+[2018-04-28T15:06:44.991] [DEBUG] rra - Loading finished
+[2018-04-28T15:07:10.107] [DEBUG] rra - Get record.
+[2018-04-28T15:07:10.111] [DEBUG] rra - Loading record from database
+[2018-04-28T15:07:10.185] [DEBUG] rra - Loading finished
+[2018-04-28T15:15:13.437] [DEBUG] rra - Get record.
+[2018-04-28T15:15:13.440] [DEBUG] rra - Loading record from database
+[2018-04-28T15:15:13.480] [DEBUG] rra - Loading finished
+[2018-04-28T15:19:06.138] [DEBUG] rra - Get records.
+[2018-04-28T15:19:06.139] [DEBUG] rra - Loading all records from database
+[2018-04-28T15:19:06.149] [DEBUG] rra - Loading finished
+[2018-04-28T15:25:43.772] [DEBUG] rra - Get records.
+[2018-04-28T15:25:43.775] [DEBUG] rra - Loading all records from database
+[2018-04-28T15:25:43.809] [DEBUG] rra - Loading finished
+[2018-04-28T15:25:47.814] [DEBUG] rra - Get record.
+[2018-04-28T15:25:47.815] [DEBUG] rra - Loading all records from database
+[2018-04-28T15:25:47.825] [DEBUG] rra - Loading finished
+[2018-04-28T15:27:25.907] [DEBUG] rra - Get record.
+[2018-04-28T15:27:25.908] [DEBUG] rra - Loading all records from database
+[2018-04-28T15:27:25.915] [DEBUG] rra - Loading finished
+[2018-04-28T15:29:52.471] [DEBUG] rra - Get record.
+[2018-04-28T15:29:52.474] [DEBUG] rra - Loading all records from database
+[2018-04-28T15:29:52.511] [DEBUG] rra - Loading finished
+[2018-04-28T20:07:30.020] [DEBUG] rra - Get record.
+[2018-04-28T20:07:30.125] [DEBUG] rra - Loading all records from database
+[2018-04-28T20:07:30.192] [DEBUG] rra - Loading finished
+[2018-04-28T20:12:30.113] [DEBUG] rra - Get record.
+[2018-04-28T20:12:30.117] [DEBUG] rra - Loading all records from database
+[2018-04-28T20:12:30.162] [DEBUG] rra - Loading finished
+[2018-04-28T20:12:48.877] [DEBUG] rra - Get record.
+[2018-04-28T20:12:48.880] [DEBUG] rra - Loading all records from database
+[2018-04-28T20:12:48.911] [DEBUG] rra - Loading finished
+[2018-04-28T20:28:32.484] [DEBUG] rra - Get record.
+[2018-04-28T20:28:32.489] [DEBUG] rra - Loading all records from database
+[2018-04-28T20:28:32.542] [DEBUG] rra - Loading finished
+[2018-04-28T20:29:22.705] [DEBUG] rra - Get record.
+[2018-04-28T20:29:22.710] [DEBUG] rra - Loading all records from database
+[2018-04-28T20:29:22.819] [DEBUG] rra - Loading finished
+[2018-04-28T20:31:10.682] [DEBUG] rra - Get record.
+[2018-04-28T20:31:10.687] [DEBUG] rra - Loading all records from database
+[2018-04-28T20:31:10.725] [DEBUG] rra - Loading finished
+[2018-04-28T20:33:41.461] [DEBUG] rra - Get record.
+[2018-04-28T20:33:41.466] [DEBUG] rra - Loading all records from database
+[2018-04-28T20:33:41.505] [DEBUG] rra - Loading finished
+[2018-04-28T20:35:08.043] [DEBUG] rra - Get record.
+[2018-04-28T20:35:08.046] [DEBUG] rra - Loading all records from database
+[2018-04-28T20:35:08.088] [DEBUG] rra - Loading finished
+[2018-04-28T20:35:12.155] [DEBUG] rra - Get record.
+[2018-04-28T20:35:12.156] [DEBUG] rra - Loading all records from database
+[2018-04-28T20:35:12.164] [DEBUG] rra - Loading finished
+[2018-04-28T20:35:42.523] [DEBUG] rra - Get record.
+[2018-04-28T20:35:42.524] [DEBUG] rra - Loading all records from database
+[2018-04-28T20:35:42.529] [DEBUG] rra - Loading finished
+[2018-04-28T20:37:38.168] [DEBUG] rra - Get record.
+[2018-04-28T20:37:38.172] [DEBUG] rra - Loading all records from database
+[2018-04-28T20:37:38.205] [DEBUG] rra - Loading finished
+[2018-04-28T20:54:30.588] [DEBUG] rra - Get record.
+[2018-04-28T20:54:30.592] [DEBUG] rra - Loading all records from database
+[2018-04-28T20:54:30.627] [DEBUG] rra - Loading finished
+[2018-04-28T20:55:49.288] [DEBUG] rra - Get record.
+[2018-04-28T20:55:49.292] [DEBUG] rra - Loading all records from database
+[2018-04-28T20:55:49.349] [DEBUG] rra - Loading finished
+[2018-04-28T20:57:55.997] [DEBUG] rra - Get record.
+[2018-04-28T20:57:56.001] [DEBUG] rra - Loading all records from database
+[2018-04-28T20:57:56.044] [DEBUG] rra - Loading finished
+[2018-04-28T20:58:58.584] [DEBUG] rra - Get record.
+[2018-04-28T20:58:58.587] [DEBUG] rra - Loading all records from database
+[2018-04-28T20:58:58.670] [DEBUG] rra - Loading finished
+[2018-04-28T20:59:01.582] [DEBUG] rra - Get record.
+[2018-04-28T20:59:01.583] [DEBUG] rra - Loading all records from database
+[2018-04-28T20:59:01.591] [DEBUG] rra - Loading finished
+[2018-04-28T21:03:19.682] [DEBUG] rra - Get record.
+[2018-04-28T21:03:19.686] [DEBUG] rra - Loading all records from database
+[2018-04-28T21:03:19.848] [DEBUG] rra - Loading finished
+[2018-04-28T21:04:41.872] [DEBUG] rra - Get record.
+[2018-04-28T21:04:41.875] [DEBUG] rra - Loading all records from database
+[2018-04-28T21:04:41.918] [DEBUG] rra - Loading finished
+[2018-04-28T21:05:27.240] [DEBUG] rra - Get record.
+[2018-04-28T21:05:27.247] [DEBUG] rra - Loading all records from database
+[2018-04-28T21:05:27.337] [DEBUG] rra - Loading finished
+[2018-04-28T21:08:02.198] [DEBUG] rra - Get records.
+[2018-04-28T21:08:02.199] [DEBUG] rra - Loading all records from database
+[2018-04-28T21:08:02.211] [DEBUG] rra - Loading finished
+[2018-04-28T21:08:03.974] [DEBUG] rra - Get records.
+[2018-04-28T21:08:03.974] [DEBUG] rra - Loading all records from database
+[2018-04-28T21:08:03.979] [DEBUG] rra - Loading finished
+[2018-04-28T21:08:05.236] [DEBUG] rra - Get records.
+[2018-04-28T21:08:05.241] [DEBUG] rra - Loading all records from database
+[2018-04-28T21:08:05.257] [DEBUG] rra - Loading finished
+[2018-04-28T21:09:05.538] [DEBUG] rra - Get records.
+[2018-04-28T21:09:05.543] [DEBUG] rra - Loading all records from database
+[2018-04-28T21:09:05.585] [DEBUG] rra - Loading finished
+[2018-04-28T21:09:46.612] [DEBUG] rra - Get records.
+[2018-04-28T21:09:46.613] [DEBUG] rra - Loading all records from database
+[2018-04-28T21:09:46.629] [DEBUG] rra - Loading finished
+[2018-04-28T21:11:22.476] [DEBUG] rra - Get records.
+[2018-04-28T21:11:22.480] [DEBUG] rra - Loading all records from database
+[2018-04-28T21:11:22.525] [DEBUG] rra - Loading finished
+[2018-04-28T21:11:25.948] [DEBUG] rra - Get record.
+[2018-04-28T21:11:25.949] [DEBUG] rra - Loading all records from database
+[2018-04-28T21:11:25.961] [DEBUG] rra - Loading finished
+[2018-04-28T21:13:48.425] [DEBUG] rra - Get record.
+[2018-04-28T21:13:48.428] [DEBUG] rra - Loading all records from database
+[2018-04-28T21:13:48.468] [DEBUG] rra - Loading finished
+[2018-04-28T21:13:48.469] [DEBUG] rra - []
+[2018-04-28T21:14:54.819] [DEBUG] rra - Get record.
+[2018-04-28T21:14:54.823] [DEBUG] rra - Loading record from database
+[2018-04-28T21:14:54.866] [DEBUG] rra - Loading finished
+[2018-04-28T21:14:54.866] [DEBUG] rra - undefined
+[2018-04-28T21:19:29.324] [DEBUG] rra - Get record.
+[2018-04-28T21:19:29.328] [DEBUG] rra - Loading record from database
+[2018-04-28T21:19:29.376] [DEBUG] rra - Loading finished
+[2018-04-28T21:23:01.174] [DEBUG] rra - Get record.
+[2018-04-28T21:23:01.178] [DEBUG] rra - Loading record from database
+[2018-04-28T21:23:01.214] [DEBUG] rra - Loading finished
+[2018-04-28T21:26:15.378] [DEBUG] rra - Get record.
+[2018-04-28T21:26:15.381] [DEBUG] rra - Loading record from database
+[2018-04-28T21:26:15.419] [DEBUG] rra - 5ae46552ca22a71a3423141a
+[2018-04-28T21:26:15.420] [DEBUG] rra - Loading finished

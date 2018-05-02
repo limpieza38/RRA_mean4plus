@@ -1,47 +1,36 @@
 // Datenbank Abfragen
 const connection = require('../../utils/dataAccessUtil').connection;
 const selectResult = require('../../utils/dataAccessUtil').selectResult;
+const getObjectId = require('../../utils/dataAccessUtil').getObjectId;
 const records = require('../../static/constants').MEAN_RECORDS_COLLECTION;
 const log = require('../../utils/logUtil').logger;
+const recordsDTO = require('../../utils/dtoUtil').recordsDTO;
 const handleLoadedRecords = require('./businessHandler').handleLoadedRecords;
+const handleRecordAdded = require('./businessHandler').handleRecordAdded;
+const handleLoadedRecord = require('./businessHandler').handleLoadedRecord;
 const handleError = require('../../utils/restUtil').handleError;
 
 
 function addRecord(req, res) {
     log.debug("Adding record to database");
-    var record = {
-        businessUnity: req.body.businessUnity,
-        documentType: req.body.documentType,
-        volume: req.body.volume,
-        description: req.body.description,
-        dateCreatedFrom: req.body.dateCreatedFrom,
-        dateCreatedTo: req.body.dateCreatedTo,
-        building: req.body.building,
-        floor: req.body.floor,
-        room: req.body.room,
-        boxDraw: req.body.boxDraw,
-        createdBy: req.body.createdBy,
-        dateArchived: req.body.dateArchived
-    };
+    log.debug("Post data: ",  req.body);
+    var record = recordsDTO(req.body);
+
     connection((db) => {
         db.collection(records)
-            .insertOne(record, function(err,res){
-                if (err){
-                    log.error("Error while adding record to database")
-                    selectResult.status = 400;
-                    selectResult.message = typeof err == 'object' ? err.message : err;
-                    log.error("Error: %s", selectResult.message);
-                    handleError(selectResult, res);
-                }
-                else {
-                    log.debug("Adding record finished");
-                    
-                    //selectResult.data = res.body.toArray();
-                    //handleLoadedRecords(selectResult, res);
-                }
+            .insertOne(record)
+            .then((data) => {
+                log.debug("Adding record finished");
+                handleRecordAdded(data, res);
+            })
+            .catch((err) => {
+                log.error("Error while adding record to database")
+                selectResult.status = 400;
+                selectResult.message = typeof err == 'object' ? err.message : err;
+                log.error("Error: %s", selectResult.message);
+                handleError(selectResult, res);
             })
     });
-  
   }
 
 function loadAllRecords(req, res) {
@@ -68,16 +57,16 @@ function loadAllRecords(req, res) {
 }
 
 function loadRecord(req, res) {
-    log.debug("Loading record from database");
     var recordID = req.params.recordID;
+    log.debug("Loading record " + recordID + " from database");
+
     connection((db) => {
         db.collection(records)
-            .find({_id: recordID})
-            .toArray()
-            .then((data) => {
+            .findOne({_id : getObjectId(recordID)})
+            .then((record) => {
                 log.debug("Loading finished");
-                selectResult.data = data;
-                handleLoadedRecords(selectResult, res);
+
+                handleLoadedRecord(record, res);
             })
             .catch((err) => {
                 log.error("Error while loading records from database")
@@ -87,7 +76,7 @@ function loadRecord(req, res) {
                 handleError(selectResult, res);
             });
     });
-  
+
   }
 
 /*, loadRecordsPerBusinessUnit, loadRecordsPerDocumentType*/

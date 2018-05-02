@@ -343,3 +343,9 @@
 [2018-05-02T19:11:54.930] [DEBUG] rra - Adding record.
 [2018-05-02T19:11:54.932] [DEBUG] rra - Adding record to database
 [2018-05-02T19:11:54.938] [DEBUG] rra - Adding record finished
+[2018-05-02T20:49:06.316] [DEBUG] rra - Get records.
+[2018-05-02T20:49:06.320] [DEBUG] rra - Loading all records from database
+[2018-05-02T20:49:06.347] [DEBUG] rra - Loading finished
+[2018-05-02T20:49:18.949] [DEBUG] rra - Get records.
+[2018-05-02T20:49:18.950] [DEBUG] rra - Loading all records from database
+[2018-05-02T20:49:18.961] [DEBUG] rra - Loading finished

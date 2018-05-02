@@ -8,6 +8,7 @@ const cors = require('cors');
 // API file for interacting with MongoDB
 const api = require('./server/routes/handler');
 const records = require('./server/routes/records/interface');
+const locations = require('./server/routes/locations/interface');
 
 // Parsers
 app.use(bodyParser.json());
@@ -22,6 +23,7 @@ app.use(cors({origin: 'http://localhost:4200'}));
 // API location
 app.use('/api', api);
 app.use('/api', records);
+app.use('/api', locations);
 
 // Send all other requests to the Angular app
 app.get('*', (req, res) => {

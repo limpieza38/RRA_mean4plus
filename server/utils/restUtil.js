@@ -4,5 +4,8 @@ function handleSuccess(result, res){
 function handleError(result, res){
   res.status(result.status).json(result.message);
 }
+function handleNoContentFound(res){
+  res.status(204).send();
+}
 
-module.exports = { handleSuccess, handleError };
+module.exports = { handleSuccess, handleError, handleNoContentFound };

@@ -343,3 +343,438 @@
 [2018-05-02T19:11:54.930] [DEBUG] rra - Adding record.
 [2018-05-02T19:11:54.932] [DEBUG] rra - Adding record to database
 [2018-05-02T19:11:54.938] [DEBUG] rra - Adding record finished
+[2018-05-02T20:47:27.290] [DEBUG] rra - Get records.
+[2018-05-02T20:47:27.293] [DEBUG] rra - Loading all records from database
+[2018-05-02T20:47:27.315] [DEBUG] rra - Loading finished
+[2018-05-02T20:49:54.609] [DEBUG] rra - Get locations.
+[2018-05-02T20:49:54.612] [DEBUG] rra - Loading all locations from database
+[2018-05-02T20:49:54.635] [DEBUG] rra - Loading finished
+[2018-05-02T21:11:10.237] [DEBUG] rra - Get locations.
+[2018-05-02T21:11:10.239] [DEBUG] rra - Loading all locations from database
+[2018-05-02T21:11:10.245] [DEBUG] rra - Loading finished
+[2018-05-02T21:11:31.609] [DEBUG] rra - Get locations.
+[2018-05-02T21:11:31.610] [DEBUG] rra - Loading all locations from database
+[2018-05-02T21:11:31.613] [DEBUG] rra - Loading finished
+[2018-05-02T21:34:45.223] [DEBUG] rra - Get locations.
+[2018-05-02T21:34:45.226] [DEBUG] rra - Loading all locations from database
+[2018-05-02T21:34:45.251] [DEBUG] rra - Loading finished
+[2018-05-02T21:34:50.983] [DEBUG] rra - Get records.
+[2018-05-02T21:34:50.984] [DEBUG] rra - Loading all records from database
+[2018-05-02T21:34:50.988] [DEBUG] rra - Loading finished
+[2018-05-02T21:35:24.506] [DEBUG] rra - Get records.
+[2018-05-02T21:35:24.508] [DEBUG] rra - Loading all records from database
+[2018-05-02T21:35:24.512] [DEBUG] rra - Loading finished
+[2018-05-02T21:36:21.496] [DEBUG] rra - Get records.
+[2018-05-02T21:36:21.497] [DEBUG] rra - Loading all records from database
+[2018-05-02T21:36:21.500] [DEBUG] rra - Loading finished
+[2018-05-02T21:38:44.204] [DEBUG] rra - Get locations.
+[2018-05-02T21:38:44.206] [DEBUG] rra - Loading all locations from database
+[2018-05-02T21:38:44.209] [DEBUG] rra - Loading finished
+[2018-05-02T21:39:09.413] [DEBUG] rra - Get locations.
+[2018-05-02T21:39:09.414] [DEBUG] rra - Loading all locations from database
+[2018-05-02T21:39:09.417] [DEBUG] rra - Loading finished
+[2018-05-02T21:40:32.730] [DEBUG] rra - Get locations.
+[2018-05-02T21:40:32.731] [DEBUG] rra - Loading all locations from database
+[2018-05-02T21:40:32.735] [DEBUG] rra - Loading finished
+[2018-05-02T21:44:08.505] [DEBUG] rra - Get locations.
+[2018-05-02T21:44:08.506] [DEBUG] rra - Loading all locations from database
+[2018-05-02T21:44:08.509] [DEBUG] rra - Loading finished
+[2018-05-02T21:45:58.513] [DEBUG] rra - Get locations.
+[2018-05-02T21:45:58.514] [DEBUG] rra - Loading all locations from database
+[2018-05-02T21:45:58.518] [DEBUG] rra - Loading finished
+[2018-05-02T21:46:14.788] [DEBUG] rra - Get locations.
+[2018-05-02T21:46:14.790] [DEBUG] rra - Loading all locations from database
+[2018-05-02T21:46:14.794] [DEBUG] rra - Loading finished
+[2018-05-02T21:47:04.259] [DEBUG] rra - Get locations.
+[2018-05-02T21:47:04.260] [DEBUG] rra - Loading all locations from database
+[2018-05-02T21:47:04.264] [DEBUG] rra - Loading finished
+[2018-05-02T21:48:02.841] [DEBUG] rra - Get records.
+[2018-05-02T21:48:02.842] [DEBUG] rra - Loading all records from database
+[2018-05-02T21:48:02.846] [DEBUG] rra - Loading finished
+[2018-05-02T21:50:07.560] [DEBUG] rra - Get locations.
+[2018-05-02T21:50:07.560] [DEBUG] rra - Loading all locations from database
+[2018-05-02T21:50:07.564] [DEBUG] rra - Loading finished
+[2018-05-02T21:51:00.511] [DEBUG] rra - Get locations.
+[2018-05-02T21:51:00.516] [DEBUG] rra - Loading all locations from database
+[2018-05-02T21:51:00.540] [DEBUG] rra - Loading finished
+[2018-05-02T21:51:11.489] [DEBUG] rra - Adding record.
+[2018-05-02T21:51:11.491] [DEBUG] rra - Adding record to database
+[2018-05-02T21:51:11.491] [DEBUG] rra - Post data:  { documentType: '',
+  volume: '',
+  description: '',
+  building: 
+   { uuid: 'e71a3a38-a2af-4ee5-afdb-264058d5b12a',
+     name: 'Building 1',
+     isActive: true,
+     floors: [ [Object] ] },
+  boxDraw: '',
+  createdBy: 'Joe Doe',
+  dateArchived: '2.5.2018, 21:49:56' }
+[2018-05-02T21:51:38.612] [DEBUG] rra - Adding record.
+[2018-05-02T21:51:38.613] [DEBUG] rra - Adding record to database
+[2018-05-02T21:51:38.614] [DEBUG] rra - Post data:  { businessUnity: { businessUnityId: 2, businessUnityName: 'Buniness Unity' },
+  boxDraw: '12351',
+  dateCreatedFrom: 1522250029,
+  dateCreatedTo: 1522250029,
+  dateArchived: 1522250029,
+  contentDescription: 'Mega cool!',
+  volume: '1-2',
+  documentType: 'invoices',
+  retentionPeriod: 3,
+  building: 
+   { uuid: 'e71a3a38-a2af-4ee5-afdb-264058d5b12a',
+     name: 'Building 1' },
+  floor: 
+   { uuid: 'f657268c-02f7-4383-ad32-1cac1babc796',
+     name: 'Floor 1' },
+  room: { uuid: 'fd8706ae-3054-44e2-a6c8-1067988d7118', name: 'Room 1' },
+  createdBy: { firstname: 'Britta', lastname: 'Enneking', email: '' } }
+[2018-05-02T21:54:38.403] [DEBUG] rra - Adding record.
+[2018-05-02T21:54:38.404] [DEBUG] rra - Adding record to database
+[2018-05-02T21:54:38.405] [DEBUG] rra - Post data:  { businessUnity: { businessUnityId: 2, businessUnityName: 'Buniness Unity' },
+  boxDraw: '12351',
+  dateCreatedFrom: 1522250029,
+  dateCreatedTo: 1522250029,
+  dateArchived: 1522250029,
+  contentDescription: 'Mega cool!',
+  volume: '1-2',
+  documentType: 'invoices',
+  retentionPeriod: 3,
+  building: 
+   { uuid: 'e71a3a38-a2af-4ee5-afdb-264058d5b12a',
+     name: 'Building 1' },
+  floor: 
+   { uuid: 'f657268c-02f7-4383-ad32-1cac1babc796',
+     name: 'Floor 1' },
+  room: { uuid: 'fd8706ae-3054-44e2-a6c8-1067988d7118', name: 'Room 1' },
+  createdBy: { firstname: 'Britta', lastname: 'Enneking', email: '' } }
+[2018-05-02T21:55:02.732] [DEBUG] rra - Adding record.
+[2018-05-02T21:55:02.734] [DEBUG] rra - Adding record to database
+[2018-05-02T21:55:02.734] [DEBUG] rra - Post data:  { businessUnity: { businessUnityId: 2, businessUnityName: 'Buniness Unity' },
+  boxDraw: '12351',
+  dateCreatedFrom: 1522250029,
+  dateCreatedTo: 1522250029,
+  dateArchived: 1522250029,
+  contentDescription: 'Mega cool!',
+  volume: '1-2',
+  documentType: 'invoices',
+  retentionPeriod: 3,
+  building: 
+   { uuid: 'e71a3a38-a2af-4ee5-afdb-264058d5b12a',
+     name: 'Building 1' },
+  floor: 
+   { uuid: 'f657268c-02f7-4383-ad32-1cac1babc796',
+     name: 'Floor 1' },
+  room: { uuid: 'fd8706ae-3054-44e2-a6c8-1067988d7118', name: 'Room 1' },
+  createdBy: { firstname: 'Britta', lastname: 'Enneking', email: '' } }
+[2018-05-02T21:56:46.484] [DEBUG] rra - Adding record.
+[2018-05-02T21:56:46.485] [DEBUG] rra - Adding record to database
+[2018-05-02T21:56:46.485] [DEBUG] rra - Post data:  { businessUnity: { businessUnityId: 2, businessUnityName: 'Buniness Unity' },
+  boxDraw: '12351',
+  dateCreatedFrom: 1522250029,
+  dateCreatedTo: 1522250029,
+  dateArchived: 1522250029,
+  contentDescription: 'Mega cool!',
+  volume: '1-2',
+  documentType: 'invoices',
+  retentionPeriod: 3,
+  building: 
+   { uuid: 'e71a3a38-a2af-4ee5-afdb-264058d5b12a',
+     name: 'Building 1' },
+  floor: 
+   { uuid: 'f657268c-02f7-4383-ad32-1cac1babc796',
+     name: 'Floor 1' },
+  room: { uuid: 'fd8706ae-3054-44e2-a6c8-1067988d7118', name: 'Room 1' },
+  createdBy: { firstname: 'Britta', lastname: 'Enneking', email: '' } }
+[2018-05-02T21:56:46.509] [DEBUG] rra - Adding record finished
+[2018-05-02T22:01:22.107] [DEBUG] rra - Get records.
+[2018-05-02T22:01:22.109] [DEBUG] rra - Loading all records from database
+[2018-05-02T22:01:22.133] [DEBUG] rra - Loading finished
+[2018-05-02T22:01:50.314] [DEBUG] rra - Adding record.
+[2018-05-02T22:01:50.314] [DEBUG] rra - Adding record to database
+[2018-05-02T22:01:50.314] [DEBUG] rra - Post data:  { businessUnity: { businessUnityId: 3, businessUnityName: 'Buniness Unity' },
+  boxDraw: '12351',
+  dateCreatedFrom: 1522250029,
+  dateCreatedTo: 1522250029,
+  dateArchived: 1522250029,
+  contentDescription: 'Ultra cool!',
+  volume: '1-2',
+  documentType: 'invoices',
+  retentionPeriod: 3,
+  building: 
+   { uuid: 'e71a3a38-a2af-4ee5-afdb-264058d5b12a',
+     name: 'Building 1' },
+  floor: 
+   { uuid: 'f657268c-02f7-4383-ad32-1cac1babc796',
+     name: 'Floor 1' },
+  room: { uuid: 'fd8706ae-3054-44e2-a6c8-1067988d7118', name: 'Room 1' },
+  createdBy: { firstname: 'Britta', lastname: 'Enneking', email: '' } }
+[2018-05-02T22:01:50.321] [DEBUG] rra - Adding record finished
+[2018-05-02T22:11:04.957] [DEBUG] rra - Get locations.
+[2018-05-02T22:11:04.958] [DEBUG] rra - Loading all locations from database
+[2018-05-02T22:11:04.981] [DEBUG] rra - Loading finished
+[2018-05-02T22:14:18.750] [DEBUG] rra - Get locations.
+[2018-05-02T22:14:18.751] [DEBUG] rra - Loading all locations from database
+[2018-05-02T22:14:18.755] [DEBUG] rra - Loading finished
+[2018-05-02T22:14:48.623] [DEBUG] rra - Get locations.
+[2018-05-02T22:14:48.623] [DEBUG] rra - Loading all locations from database
+[2018-05-02T22:14:48.625] [DEBUG] rra - Loading finished
+[2018-05-02T22:14:52.339] [DEBUG] rra - Get locations.
+[2018-05-02T22:14:52.340] [DEBUG] rra - Loading all locations from database
+[2018-05-02T22:14:52.342] [DEBUG] rra - Loading finished
+[2018-05-02T22:16:31.864] [DEBUG] rra - Adding record.
+[2018-05-02T22:16:31.868] [DEBUG] rra - Adding record to database
+[2018-05-02T22:16:31.868] [DEBUG] rra - Post data:  { businessUnity: { businessUnityId: 3, businessUnityName: 'Buniness Unity' },
+  boxDraw: '12351',
+  dateCreatedFrom: 1522250029,
+  dateCreatedTo: 1522250029,
+  dateArchived: 1522250029,
+  contentDescription: 'Ultra cool!',
+  volume: '1-2',
+  documentType: 'invoices',
+  retentionPeriod: 3,
+  building: 
+   { uuid: 'e71a3a38-a2af-4ee5-afdb-264058d5b12a',
+     name: 'Building 1' },
+  floor: 
+   { uuid: 'f657268c-02f7-4383-ad32-1cac1babc796',
+     name: 'Floor 1' },
+  room: { uuid: 'fd8706ae-3054-44e2-a6c8-1067988d7118', name: 'Room 1' },
+  createdBy: { firstname: 'Britta', lastname: 'Enneking', email: '' } }
+[2018-05-02T22:16:31.891] [DEBUG] rra - Adding record finished
+[2018-05-02T22:16:45.271] [DEBUG] rra - Get records.
+[2018-05-02T22:16:45.272] [DEBUG] rra - Loading all records from database
+[2018-05-02T22:16:45.280] [DEBUG] rra - Loading finished
+[2018-05-02T22:16:55.822] [DEBUG] rra - Adding record.
+[2018-05-02T22:16:55.823] [DEBUG] rra - Adding record to database
+[2018-05-02T22:16:55.824] [DEBUG] rra - Post data:  { businessUnity: { businessUnityId: 3, businessUnityName: 'Buniness Unity' },
+  boxDraw: '12351',
+  dateCreatedFrom: 1522250029,
+  dateCreatedTo: 1522250029,
+  dateArchived: 1522250029,
+  contentDescription: 'Ultra cool!',
+  volume: '1-2',
+  documentType: 'invoices',
+  retentionPeriod: 3,
+  building: 
+   { uuid: 'e71a3a38-a2af-4ee5-afdb-264058d5b12a',
+     name: 'Building 1' },
+  floor: 
+   { uuid: 'f657268c-02f7-4383-ad32-1cac1babc796',
+     name: 'Floor 1' },
+  room: { uuid: 'fd8706ae-3054-44e2-a6c8-1067988d7118', name: 'Room 1' },
+  createdBy: { firstname: 'Britta', lastname: 'Enneking', email: '' } }
+[2018-05-02T22:16:55.828] [DEBUG] rra - Adding record finished
+[2018-05-02T22:16:58.822] [DEBUG] rra - Get records.
+[2018-05-02T22:16:58.823] [DEBUG] rra - Loading all records from database
+[2018-05-02T22:16:58.827] [DEBUG] rra - Loading finished
+[2018-05-02T22:21:44.105] [DEBUG] rra - Get record.
+[2018-05-02T22:21:44.106] [DEBUG] rra - Loading record from database
+[2018-05-02T22:21:44.110] [DEBUG] rra - Loading finished
+[2018-05-02T22:24:20.038] [DEBUG] rra - Get records.
+[2018-05-02T22:24:20.039] [DEBUG] rra - Loading all records from database
+[2018-05-02T22:24:20.043] [DEBUG] rra - Loading finished
+[2018-05-02T22:24:35.153] [DEBUG] rra - Get record.
+[2018-05-02T22:24:35.154] [DEBUG] rra - Loading record from database
+[2018-05-02T22:24:35.157] [DEBUG] rra - Loading finished
+[2018-05-02T22:27:34.665] [DEBUG] rra - Get locations.
+[2018-05-02T22:27:34.666] [DEBUG] rra - Loading all locations from database
+[2018-05-02T22:27:34.669] [DEBUG] rra - Loading finished
+[2018-05-02T22:28:07.753] [DEBUG] rra - Get locations.
+[2018-05-02T22:28:07.755] [DEBUG] rra - Loading all locations from database
+[2018-05-02T22:28:07.778] [DEBUG] rra - Loading finished
+[2018-05-02T22:28:11.458] [DEBUG] rra - Get record.
+[2018-05-02T22:28:11.460] [DEBUG] rra - Loading record 5ac8a9e9dd77c22fcbcae07a from database
+[2018-05-02T22:29:18.608] [DEBUG] rra - Get locations.
+[2018-05-02T22:29:18.610] [DEBUG] rra - Loading all locations from database
+[2018-05-02T22:29:18.634] [DEBUG] rra - Loading finished
+[2018-05-02T22:35:15.013] [DEBUG] rra - Get locations.
+[2018-05-02T22:35:15.015] [DEBUG] rra - Loading all locations from database
+[2018-05-02T22:35:15.019] [DEBUG] rra - Loading finished
+[2018-05-02T22:36:47.038] [DEBUG] rra - Get locations.
+[2018-05-02T22:36:47.040] [DEBUG] rra - Loading all locations from database
+[2018-05-02T22:36:47.042] [DEBUG] rra - Loading finished
+[2018-05-02T22:36:57.088] [DEBUG] rra - Get locations.
+[2018-05-02T22:36:57.089] [DEBUG] rra - Loading all locations from database
+[2018-05-02T22:36:57.092] [DEBUG] rra - Loading finished
+[2018-05-02T22:38:03.791] [DEBUG] rra - Get locations.
+[2018-05-02T22:38:03.792] [DEBUG] rra - Loading all locations from database
+[2018-05-02T22:38:03.795] [DEBUG] rra - Loading finished
+[2018-05-02T22:38:48.937] [DEBUG] rra - Get locations.
+[2018-05-02T22:38:48.938] [DEBUG] rra - Loading all locations from database
+[2018-05-02T22:38:48.941] [DEBUG] rra - Loading finished
+[2018-05-02T22:38:51.559] [DEBUG] rra - Get locations.
+[2018-05-02T22:38:51.560] [DEBUG] rra - Loading all locations from database
+[2018-05-02T22:38:51.563] [DEBUG] rra - Loading finished
+[2018-05-02T22:40:01.662] [DEBUG] rra - Get locations.
+[2018-05-02T22:40:01.663] [DEBUG] rra - Loading all locations from database
+[2018-05-02T22:40:01.666] [DEBUG] rra - Loading finished
+[2018-05-02T22:40:34.296] [DEBUG] rra - Get locations.
+[2018-05-02T22:40:34.297] [DEBUG] rra - Loading all locations from database
+[2018-05-02T22:40:34.299] [DEBUG] rra - Loading finished
+[2018-05-02T22:43:41.886] [DEBUG] rra - Get locations.
+[2018-05-02T22:43:41.887] [DEBUG] rra - Loading all locations from database
+[2018-05-02T22:43:41.890] [DEBUG] rra - Loading finished
+[2018-05-02T22:44:17.491] [DEBUG] rra - Get locations.
+[2018-05-02T22:44:17.492] [DEBUG] rra - Loading all locations from database
+[2018-05-02T22:44:17.495] [DEBUG] rra - Loading finished
+[2018-05-02T22:44:34.415] [DEBUG] rra - Get locations.
+[2018-05-02T22:44:34.417] [DEBUG] rra - Loading all locations from database
+[2018-05-02T22:44:34.420] [DEBUG] rra - Loading finished
+[2018-05-02T22:51:51.543] [DEBUG] rra - Get locations.
+[2018-05-02T22:51:51.544] [DEBUG] rra - Loading all locations from database
+[2018-05-02T22:51:51.547] [DEBUG] rra - Loading finished
+[2018-05-02T22:58:11.430] [DEBUG] rra - Get record.
+[2018-05-02T22:58:11.434] [DEBUG] rra - Loading record 5ac8a9e9dd77c22fcbcae07a from database
+[2018-05-02T23:03:26.791] [DEBUG] rra - Get locations.
+[2018-05-02T23:03:26.793] [DEBUG] rra - Loading all locations from database
+[2018-05-02T23:03:26.816] [DEBUG] rra - Loading finished
+[2018-05-02T23:03:32.094] [DEBUG] rra - Get locations.
+[2018-05-02T23:03:32.095] [DEBUG] rra - Loading all locations from database
+[2018-05-02T23:03:32.098] [DEBUG] rra - Loading finished
+[2018-05-02T23:03:53.275] [DEBUG] rra - Get record.
+[2018-05-02T23:03:53.277] [DEBUG] rra - Loading record 5ac8a9e9dd77c22fcbcae07a from database
+[2018-05-02T23:03:53.281] [DEBUG] rra - Loading finished
+[2018-05-02T23:03:53.281] [ERROR] rra - Error while loading records from database
+[2018-05-02T23:03:53.282] [ERROR] rra - Error: handleNoContentFound is not defined
+[2018-05-02T23:04:42.994] [DEBUG] rra - Get record.
+[2018-05-02T23:04:42.997] [DEBUG] rra - Loading record 5ac8a9e9dd77c22fcbcae07a from database
+[2018-05-02T23:04:43.022] [DEBUG] rra - Loading finished
+[2018-05-02T23:04:43.024] [ERROR] rra - Error while loading records from database
+[2018-05-02T23:04:43.024] [ERROR] rra - Error: handleNoContentFound is not a function
+[2018-05-02T23:06:03.019] [DEBUG] rra - Get record.
+[2018-05-02T23:06:03.023] [DEBUG] rra - Loading record 5ac8a9e9dd77c22fcbcae07a from database
+[2018-05-02T23:06:03.046] [DEBUG] rra - Loading finished
+[2018-05-02T23:06:03.048] [ERROR] rra - Error while loading records from database
+[2018-05-02T23:06:03.048] [ERROR] rra - Error: Cannot read property 'status' of undefined
+[2018-05-02T23:06:13.801] [DEBUG] rra - Get locations.
+[2018-05-02T23:06:13.803] [DEBUG] rra - Loading all locations from database
+[2018-05-02T23:06:13.808] [DEBUG] rra - Loading finished
+[2018-05-02T23:07:11.581] [DEBUG] rra - Get locations.
+[2018-05-02T23:07:11.582] [DEBUG] rra - Loading all locations from database
+[2018-05-02T23:07:11.586] [DEBUG] rra - Loading finished
+[2018-05-02T23:07:39.841] [DEBUG] rra - Get locations.
+[2018-05-02T23:07:39.842] [DEBUG] rra - Loading all locations from database
+[2018-05-02T23:07:39.846] [DEBUG] rra - Loading finished
+[2018-05-02T23:08:43.974] [DEBUG] rra - Get locations.
+[2018-05-02T23:08:43.975] [DEBUG] rra - Loading all locations from database
+[2018-05-02T23:08:43.978] [DEBUG] rra - Loading finished
+[2018-05-02T23:09:26.462] [DEBUG] rra - Get record.
+[2018-05-02T23:09:26.466] [DEBUG] rra - Loading record 5ac8a9e9dd77c22fcbcae07a from database
+[2018-05-02T23:09:26.489] [DEBUG] rra - Loading finished
+[2018-05-02T23:09:26.490] [DEBUG] rra - record:  false
+[2018-05-02T23:09:44.141] [DEBUG] rra - Get locations.
+[2018-05-02T23:09:44.143] [DEBUG] rra - Loading all locations from database
+[2018-05-02T23:09:44.147] [DEBUG] rra - Loading finished
+[2018-05-02T23:10:13.020] [DEBUG] rra - Get locations.
+[2018-05-02T23:10:13.023] [DEBUG] rra - Loading all locations from database
+[2018-05-02T23:10:13.045] [DEBUG] rra - Loading finished
+[2018-05-02T23:10:15.570] [DEBUG] rra - Get record.
+[2018-05-02T23:10:15.572] [DEBUG] rra - Loading record 5ac8a9e9dd77c22fcbcae07a from database
+[2018-05-02T23:10:15.577] [DEBUG] rra - Loading finished
+[2018-05-02T23:10:16.327] [DEBUG] rra - Get record.
+[2018-05-02T23:10:16.328] [DEBUG] rra - Loading record 5ac8a9e9dd77c22fcbcae07a from database
+[2018-05-02T23:10:16.331] [DEBUG] rra - Loading finished
+[2018-05-02T23:10:16.723] [DEBUG] rra - Get record.
+[2018-05-02T23:10:16.724] [DEBUG] rra - Loading record 5ac8a9e9dd77c22fcbcae07a from database
+[2018-05-02T23:10:16.726] [DEBUG] rra - Loading finished
+[2018-05-02T23:10:20.692] [DEBUG] rra - Get records.
+[2018-05-02T23:10:20.693] [DEBUG] rra - Loading all records from database
+[2018-05-02T23:10:20.698] [DEBUG] rra - Loading finished
+[2018-05-02T23:13:28.725] [DEBUG] rra - Get records.
+[2018-05-02T23:13:28.728] [DEBUG] rra - Loading all records from database
+[2018-05-02T23:13:28.757] [DEBUG] rra - Loading finished
+[2018-05-02T23:13:29.680] [DEBUG] rra - Get locations.
+[2018-05-02T23:13:29.682] [DEBUG] rra - Loading all locations from database
+[2018-05-02T23:13:29.686] [DEBUG] rra - Loading finished
+[2018-05-02T23:13:35.833] [DEBUG] rra - Get record.
+[2018-05-02T23:13:35.835] [DEBUG] rra - Loading record 5ac8a9e9dd77c22fcbcae07a from database
+[2018-05-02T23:14:52.390] [DEBUG] rra - Get record.
+[2018-05-02T23:14:52.393] [DEBUG] rra - Loading record 5ac8a9e9dd77c22fcbcae07a from database
+[2018-05-02T23:14:52.421] [DEBUG] rra - Loading finished
+[2018-05-02T23:16:27.478] [DEBUG] rra - Get locations.
+[2018-05-02T23:16:27.480] [DEBUG] rra - Loading all locations from database
+[2018-05-02T23:16:27.485] [DEBUG] rra - Loading finished
+[2018-05-02T23:18:39.277] [DEBUG] rra - Get locations.
+[2018-05-02T23:18:39.278] [DEBUG] rra - Loading all locations from database
+[2018-05-02T23:18:39.281] [DEBUG] rra - Loading finished
+[2018-05-02T23:19:30.409] [DEBUG] rra - Get locations.
+[2018-05-02T23:19:30.410] [DEBUG] rra - Loading all locations from database
+[2018-05-02T23:19:30.413] [DEBUG] rra - Loading finished
+[2018-05-02T23:19:56.553] [DEBUG] rra - Get locations.
+[2018-05-02T23:19:56.556] [DEBUG] rra - Loading all locations from database
+[2018-05-02T23:19:56.577] [DEBUG] rra - Loading finished
+[2018-05-02T23:19:56.639] [DEBUG] rra - Get record.
+[2018-05-02T23:19:56.641] [DEBUG] rra - Loading record 5ac8a9e9dd77c22fcbcae07a from database
+[2018-05-02T23:20:38.738] [DEBUG] rra - Get record.
+[2018-05-02T23:20:38.741] [DEBUG] rra - Loading record 5ac8a9e9dd77c22fcbcae07a from database
+[2018-05-02T23:23:37.598] [DEBUG] rra - Get record.
+[2018-05-02T23:23:37.601] [DEBUG] rra - Loading record 5ac8a9e9dd77c22fcbcae07a from database
+[2018-05-02T23:24:15.363] [DEBUG] rra - Get locations.
+[2018-05-02T23:24:15.366] [DEBUG] rra - Loading all locations from database
+[2018-05-02T23:24:15.389] [DEBUG] rra - Loading finished
+[2018-05-02T23:24:17.348] [DEBUG] rra - Get locations.
+[2018-05-02T23:24:17.350] [DEBUG] rra - Loading all locations from database
+[2018-05-02T23:24:17.354] [DEBUG] rra - Loading finished
+[2018-05-02T23:24:26.570] [DEBUG] rra - Get record.
+[2018-05-02T23:24:26.571] [DEBUG] rra - Loading record 5ac8a9e9dd77c22fcbcae07a from database
+[2018-05-02T23:24:26.576] [DEBUG] rra - Loading finished
+[2018-05-02T23:25:25.469] [DEBUG] rra - Get locations.
+[2018-05-02T23:25:25.470] [DEBUG] rra - Loading all locations from database
+[2018-05-02T23:25:25.473] [DEBUG] rra - Loading finished
+[2018-05-02T23:26:20.750] [DEBUG] rra - Get locations.
+[2018-05-02T23:26:20.752] [DEBUG] rra - Loading all locations from database
+[2018-05-02T23:26:20.774] [DEBUG] rra - Loading finished
+[2018-05-02T23:26:21.694] [DEBUG] rra - Get record.
+[2018-05-02T23:26:21.695] [DEBUG] rra - Loading record 5ac8a9e9dd77c22fcbcae07a from database
+[2018-05-02T23:27:20.779] [DEBUG] rra - Get locations.
+[2018-05-02T23:27:20.781] [DEBUG] rra - Loading all locations from database
+[2018-05-02T23:27:20.804] [DEBUG] rra - Loading finished
+[2018-05-02T23:27:24.150] [DEBUG] rra - Get locations.
+[2018-05-02T23:27:24.151] [DEBUG] rra - Loading all locations from database
+[2018-05-02T23:27:24.154] [DEBUG] rra - Loading finished
+[2018-05-02T23:27:39.274] [DEBUG] rra - Get record.
+[2018-05-02T23:27:39.275] [DEBUG] rra - Loading record 5ac8a9e9dd77c22fcbcae07a from database
+[2018-05-02T23:27:39.280] [DEBUG] rra - Loading finished
+[2018-05-02T23:27:49.525] [DEBUG] rra - Get record.
+[2018-05-02T23:27:49.527] [DEBUG] rra - Loading record 5ac8a2e9dd77c22fcbcae07a from database
+[2018-05-02T23:27:49.531] [DEBUG] rra - Loading finished
+[2018-05-02T23:27:52.619] [DEBUG] rra - Get records.
+[2018-05-02T23:27:52.621] [DEBUG] rra - Loading all records from database
+[2018-05-02T23:27:52.624] [DEBUG] rra - Loading finished
+[2018-05-02T23:28:05.237] [DEBUG] rra - Get record.
+[2018-05-02T23:28:05.239] [DEBUG] rra - Loading record 5aea1c9f603ab32f9ca7517b from database
+[2018-05-02T23:28:05.242] [DEBUG] rra - Loading finished
+[2018-05-02T23:28:53.370] [DEBUG] rra - Get locations.
+[2018-05-02T23:28:53.372] [DEBUG] rra - Loading all locations from database
+[2018-05-02T23:28:53.375] [DEBUG] rra - Loading finished
+[2018-05-02T23:29:31.819] [DEBUG] rra - Get locations.
+[2018-05-02T23:29:31.820] [DEBUG] rra - Loading all locations from database
+[2018-05-02T23:29:31.823] [DEBUG] rra - Loading finished
+[2018-05-02T23:30:06.284] [DEBUG] rra - Get locations.
+[2018-05-02T23:30:06.285] [DEBUG] rra - Loading all locations from database
+[2018-05-02T23:30:06.289] [DEBUG] rra - Loading finished
+[2018-05-02T23:31:00.825] [DEBUG] rra - Get locations.
+[2018-05-02T23:31:00.826] [DEBUG] rra - Loading all locations from database
+[2018-05-02T23:31:00.829] [DEBUG] rra - Loading finished
+[2018-05-02T23:31:24.092] [DEBUG] rra - Get locations.
+[2018-05-02T23:31:24.093] [DEBUG] rra - Loading all locations from database
+[2018-05-02T23:31:24.097] [DEBUG] rra - Loading finished
+[2018-05-02T23:31:50.912] [DEBUG] rra - Get locations.
+[2018-05-02T23:31:50.913] [DEBUG] rra - Loading all locations from database
+[2018-05-02T23:31:50.916] [DEBUG] rra - Loading finished
+[2018-05-02T23:32:44.374] [DEBUG] rra - Get locations.
+[2018-05-02T23:32:44.376] [DEBUG] rra - Loading all locations from database
+[2018-05-02T23:32:44.379] [DEBUG] rra - Loading finished
+[2018-05-02T23:33:16.086] [DEBUG] rra - Get locations.
+[2018-05-02T23:33:16.088] [DEBUG] rra - Loading all locations from database
+[2018-05-02T23:33:16.091] [DEBUG] rra - Loading finished
+[2018-05-02T23:35:09.135] [DEBUG] rra - Get locations.
+[2018-05-02T23:35:09.136] [DEBUG] rra - Loading all locations from database
+[2018-05-02T23:35:09.139] [DEBUG] rra - Loading finished
+[2018-05-02T23:36:43.023] [DEBUG] rra - Get locations.
+[2018-05-02T23:36:43.024] [DEBUG] rra - Loading all locations from database
+[2018-05-02T23:36:43.026] [DEBUG] rra - Loading finished
+[2018-05-02T23:37:27.201] [DEBUG] rra - Get locations.
+[2018-05-02T23:37:27.203] [DEBUG] rra - Loading all locations from database
+[2018-05-02T23:37:27.205] [DEBUG] rra - Loading finished

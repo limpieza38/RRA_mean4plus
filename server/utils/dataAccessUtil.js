@@ -1,8 +1,9 @@
 const MongoClient = require('mongodb').MongoClient;
+const ObjectId = require('mongodb').ObjectId;
 const meanDB = require('../static/constants').MEAN_CONNECTION_URI;
 
 var selectResult = {
-    status: 0,
+    status: 200,
     data: [],
     message: null
 };
@@ -15,4 +16,8 @@ function connection(closure) {
     });
 };
 
-module.exports = { selectResult, connection };
+function getObjectId(id){
+  return new ObjectId(id);
+}
+
+module.exports = { selectResult, connection, getObjectId };

@@ -22,4 +22,10 @@ export class DataService {
       .map(mapRecords);
     return ret;
   }
+
+  addRecord(record){
+    const ret = this._http.post('http://localhost:3000/api/records', record, this.options).map(response => {});
+    console.log(ret);
+    return ret;
+  }
 }

@@ -12,7 +12,7 @@ const log = require('../../utils/logUtil').logger;
 
 
 // Add record
-router.post('/record', (req, res) => {
+router.post('/records', (req, res) => {
   log.debug("Adding record.");
 
   addRecord(req, res);
@@ -26,7 +26,7 @@ router.get('/records', (req, res) => {
 });
 
 // Get record
-router.get('/record/:recordID', (req, res) => {
+router.get('/records/:recordID', (req, res) => {
   log.debug("Get record.");
 
   loadRecord(req, res);

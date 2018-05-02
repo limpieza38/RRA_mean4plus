@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
-import {FormGroup, FormControl, Validators} from '@angular/forms';
-
+import {FormGroup, FormControl, Validators, FormBuilder} from '@angular/forms';
+import {DataService} from '../../data.service';
 
 @Component({
   selector: 'rra-records-form',
@@ -9,11 +9,11 @@ import {FormGroup, FormControl, Validators} from '@angular/forms';
 })
 export class RecordsFormComponent implements OnInit {
   form;
-
-  constructor() {
-  }
-
+  constructor(private _dataService: DataService
+          //    private formBuilder: FormBuilder
+   ) {}
   ngOnInit() {
+    // TODO
     this.form = new FormGroup({
       businessUnity: new FormControl(Validators.required),
       documentType: new FormControl(''),
@@ -27,10 +27,11 @@ export class RecordsFormComponent implements OnInit {
       boxDraw: new FormControl('', Validators.required),
       createdBy: new FormControl('Joe Doe'),
       dateArchived: new FormControl(new Date().toLocaleString())
-      });
+    });
   }
 
   onSubmit(item) {
     console.log(item);
+    this._dataService.addRecord(item).subscribe();
   }
 }
